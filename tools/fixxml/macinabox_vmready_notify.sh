@@ -4,15 +4,7 @@
 
 while [ ! -d /mnt/user/appdata/macinabox/autoinstall/ ]
 do
-  sleep 5 #wait 5 seconds before rechecking
+    sleep 5 # wait 5 seconds before rechecking
 done
 /usr/local/emhttp/webGui/scripts/notify -e "Unraid Server Notice" -s "Macinabox" -d "macOS now ready to install (now run helper script)" -i "normal"
 exit
-
-
-
-
-
-
-
-
